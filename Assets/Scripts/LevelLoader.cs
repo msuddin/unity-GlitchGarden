@@ -28,4 +28,25 @@ public class LevelLoader : MonoBehaviour
     {
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
+
+    public void LoadLoseScreen()
+    {
+        StartCoroutine(DelayLoseScreen());
+    }
+
+    IEnumerator DelayLoseScreen()
+    {
+        yield return new WaitForSeconds(timeToWait);
+        SceneManager.LoadScene("Game Over");
+    }
+
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene("Start Screen");
+    }
+
+    public void QuiteGame()
+    {
+        Application.Quit();
+    }
 }
