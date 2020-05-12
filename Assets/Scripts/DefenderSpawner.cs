@@ -8,7 +8,6 @@ public class DefenderSpawner : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log("Mouse was clicked");
         AttemptToPlaceDefenderAt(GetSquareClicked());
     }
 
@@ -48,6 +47,5 @@ public class DefenderSpawner : MonoBehaviour
     private void SpawnDefender(Vector2 worldPosition)
     {
         Defender newDefender = Instantiate(defender, worldPosition, transform.rotation) as Defender;
-        Debug.Log(worldPosition);
     }
 }

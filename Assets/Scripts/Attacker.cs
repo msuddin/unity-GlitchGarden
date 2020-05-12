@@ -7,6 +7,21 @@ public class Attacker : MonoBehaviour
     [SerializeField] [Range(0, 5)] float currentSpeed = 1f;
     GameObject currentTarget;
 
+    private void Awake()
+    {
+        FindObjectOfType<LevelController>().AttackerHasSpawned();
+    }
+
+    private void OnDestroy()
+    {
+        if (!FindObjectOfType<LevelController>())
+        {
+            return;
+        }
+
+        FindObjectOfType<LevelController>().AttackedHasBeenKilled();
+    }
+
     void Update()
     {
         transform.Translate(Vector2.left * currentSpeed * Time.deltaTime);
