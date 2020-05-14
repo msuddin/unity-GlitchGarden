@@ -15,6 +15,7 @@ public class LevelController : MonoBehaviour
     {
         winLabel.SetActive(false);
         loseLabel.SetActive(false);
+        Time.timeScale = 0f;
     }
 
     public void AttackerHasSpawned()
