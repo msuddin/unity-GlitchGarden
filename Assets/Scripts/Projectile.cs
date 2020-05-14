@@ -7,6 +7,7 @@ public class Projectile : MonoBehaviour
     [SerializeField] float moveSpeed = 5f;
     [SerializeField] float damageAmount = 50f;
 
+
     void Update()
     {
         transform.Translate(Vector2.right * moveSpeed * Time.deltaTime);
@@ -22,7 +23,6 @@ public class Projectile : MonoBehaviour
             health.DealDamage(damageAmount);
             Destroy(gameObject);
         }
-
         
     }
 }

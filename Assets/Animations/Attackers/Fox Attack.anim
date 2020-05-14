@@ -154,6 +154,6 @@ AnimationClip:
     functionName: StrickCurrentTarget
     data: 
     objectReferenceParameter: {fileID: 0}
-    floatParameter: 30
+    floatParameter: 50
     intParameter: 0
     messageOptions: 0

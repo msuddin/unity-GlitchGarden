@@ -360,7 +360,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1130247599, guid: 79c66d5853d67ed4d84b31dbc2cfcdcf, type: 3}
       propertyPath: levelTime
-      value: 45
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 1819232853, guid: 79c66d5853d67ed4d84b31dbc2cfcdcf, type: 3}
       propertyPath: m_AnchorMin.x
@@ -389,7 +389,7 @@ PrefabInstance:
     - target: {fileID: 2148650484567815175, guid: 79c66d5853d67ed4d84b31dbc2cfcdcf,
         type: 3}
       propertyPath: stars
-      value: 200
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: 2894123630157747610, guid: 79c66d5853d67ed4d84b31dbc2cfcdcf,
         type: 3}
@@ -570,11 +570,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 2909450498774182046, guid: 9692bcb9b7420de449a052fd262b9f7d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7310447540799096803, guid: 9692bcb9b7420de449a052fd262b9f7d,
         type: 3}
       propertyPath: attackerPrefabArray.Array.size
@@ -706,11 +701,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spawner (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2909450498774182046, guid: 9692bcb9b7420de449a052fd262b9f7d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7310447540799096803, guid: 9692bcb9b7420de449a052fd262b9f7d,
         type: 3}
@@ -869,11 +859,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 2909450498774182046, guid: 9692bcb9b7420de449a052fd262b9f7d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7310447540799096803, guid: 9692bcb9b7420de449a052fd262b9f7d,
         type: 3}
       propertyPath: attackerPrefabArray.Array.size
@@ -882,7 +867,12 @@ PrefabInstance:
     - target: {fileID: 7310447540799096803, guid: 9692bcb9b7420de449a052fd262b9f7d,
         type: 3}
       propertyPath: minSpawnDelay
-      value: 5
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7310447540799096803, guid: 9692bcb9b7420de449a052fd262b9f7d,
+        type: 3}
+      propertyPath: maxSpawnDelay
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9692bcb9b7420de449a052fd262b9f7d, type: 3}
@@ -1118,15 +1108,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 532565236, guid: 2aef90dfbd1dc7846888a8eb6f223098, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 838301748, guid: 2aef90dfbd1dc7846888a8eb6f223098, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1420249261919041546, guid: 2aef90dfbd1dc7846888a8eb6f223098,
-        type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
